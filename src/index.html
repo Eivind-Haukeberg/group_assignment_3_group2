@@ -1,88 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Discover nine amazing flags from all over the world.">
-    <meta name="keywords"
-        content="flag, flags, slideshow, argentina, cameroon, denmark, england, morocco, northern-ireland, portugal, sweden, turkey">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover nine amazing flags from all over the world."
+    />
+    <meta
+      name="keywords"
+      content="flag, flags, slideshow, argentina, cameroon, denmark, england, morocco, northern-ireland, portugal, sweden, turkey"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Flags of our Fathers</title>
-</head>
-<body>
-
-
+  </head>
+  <body>
     <!-- SLIDESHOW -->
-
-    <div class="slideshow">
-
+    <div class="slideshow__container">
+      <div class="slideshow">
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/argentina.png" alt="Flag of Argentina">
-            <p class="slideshow__caption">Argentina</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/argentina.png"
+            alt="Flag of Argentina"
+          />
+          <p class="slideshow__caption">Argentina</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/cameroon.png" alt="Flag of Cameroon">
-            <p class="slideshow__caption">Cameroon</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/cameroon.png"
+            alt="Flag of Cameroon"
+          />
+          <p class="slideshow__caption">Cameroon</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/denmark.png" alt="Flag of Denmark">
-            <p class="slideshow__caption">Denmark</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/denmark.png"
+            alt="Flag of Denmark"
+          />
+          <p class="slideshow__caption">Denmark</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/england.png" alt="Flag of England">
-            <p class="slideshow__caption">England</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/england.png"
+            alt="Flag of England"
+          />
+          <p class="slideshow__caption">England</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/morocco.png" alt="Flag of Morocco">
-            <p class="slideshow__caption">Morocco</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/morocco.png"
+            alt="Flag of Morocco"
+          />
+          <p class="slideshow__caption">Morocco</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/northern-ireland.png" alt="Flag of Northern-Ireland">
-            <p class="slideshow__caption">Northern-Ireland</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/northern-ireland.png"
+            alt="Flag of Northern-Ireland"
+          />
+          <p class="slideshow__caption">Northern-Ireland</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/portugal.png" alt="Flag of Portugal">
-            <p class="slideshow__caption">Portugal</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/portugal.png"
+            alt="Flag of Portugal"
+          />
+          <p class="slideshow__caption">Portugal</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/sweden.png" alt="Flag of Sweden">
-            <p class="slideshow__caption">Sweden</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/sweden.png"
+            alt="Flag of Sweden"
+          />
+          <p class="slideshow__caption">Sweden</p>
         </div>
         <div class="slideshow__item">
-            <img class="slideshow__image" src="./assets/images/turkey.png" alt="Flag of Turkey">
-            <p class="slideshow__caption">Turkey</p>
+          <img
+            class="slideshow__image"
+            src="./assets/images/turkey.png"
+            alt="Flag of Turkey"
+          />
+          <p class="slideshow__caption">Turkey</p>
         </div>
+      </div>
+      <!-- CONTROLS -->
+      <div class="controls">
+        <button class="slideshow__button slideshow__button--prev">
+          &#10094;
+        </button>
+        <button class="slideshow__button slideshow__button--next">
+          &#10095;
+        </button>
+      </div>
 
-        <button class="slideshow__button slideshow__button--prev"> &#10094; </button>
-        <button class="slideshow__button slideshow__button--next"> &#10095; </button>
+      <!-- IMAGE INFO -->
 
-    </div>
-
-
-    
-    <!-- BULLET POINTS -->
-
-    <ul class="bullet-points">
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-        <li class="bullet-points__bullet"></li>
-    </ul>
-
-
-    <!-- IMAGE INFO -->
-
-    <div class="info">
+      <div class="info">
         <p id="info__counter">Image 1 of 9</p>
-    </div>
+      </div>
 
+      <!-- BULLET POINTS -->
+
+      <!-- <ul class="bullet-points">
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+        <li class="bullet-points__bullet"></li>
+      </ul> -->
+
+      <div class="bullet-points">
+        <span class="bullet-points__bullet-active" data-index="1"></span>
+        <span class="bullet-points__bullet" data-index="2"></span>
+        <span class="bullet-points__bullet" data-index="3"></span>
+        <span class="bullet-points__bullet" data-index="4"></span>
+        <span class="bullet-points__bullet" data-index="5"></span>
+        <span class="bullet-points__bullet" data-index="6"></span>
+        <span class="bullet-points__bullet" data-index="7"></span>
+        <span class="bullet-points__bullet" data-index="8"></span>
+        <span class="bullet-points__bullet" data-index="9"></span>
+      </div>
+    </div>
     <script src="./js/app.js"></script>
-</body>
+  </body>
 </html>

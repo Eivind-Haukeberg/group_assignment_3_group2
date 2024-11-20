@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slideshow */
+
+.slideshow__container {
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.slideshow {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slideshow__item {
+  min-width: 100%;
+  text-align: center;
+}
+
+.slideshow__image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.slideshow__caption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+/* Controls */
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.slideshow__button {
+  background-color: white;
+  border-color: 1px solid black;
+  color: black;
+  width: 120px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.slideshow__button:hover {
+  background-color: black;
+  color: white;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.bullet-points {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.bullet-points__bullet {
+  width: 10px;
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.bullet-points__bullet-active {
+  background-color: black;
+}
